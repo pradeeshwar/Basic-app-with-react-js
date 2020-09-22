@@ -100,7 +100,7 @@ const styles = StyleSheet.create(
           position: 'absolute',
          flexDirection: 'row',
           left: 0,
-         bottom: 10,
+         bottom: 0,
         top:  0 ,
           width: SlidingWidth,
       },
