@@ -20,7 +20,8 @@ export default class App extends Component {
         this.Animation,
                   {
                       toValue: 1,
-                      duration: 5
+                      duration: 5,
+                   useNativeDriver: true
                   } ).start(() =>
               {
                 this.SlidingToggle = false;
@@ -33,7 +34,8 @@ export default class App extends Component {
                   this.Animation,
                   {
                       toValue: 0,
-                      duration: 1
+                      duration: 1,
+                   useNativeDriver: true
                   }
               ).start(() =>
               {
